@@ -54,6 +54,12 @@ h1 {
 #taskList li button:hover {
     background-color: #ef4444;
 }
+#taskList li button.editButton {
+    background-color: #2563eb;
+}
+#taskList li button.editButton:hover {
+    background-color: #1d4ed8;
+}
 #message {
     color: #dc2626;
     font-size: 14px;
