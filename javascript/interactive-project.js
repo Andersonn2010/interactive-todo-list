@@ -51,6 +51,7 @@ function displayTasks() {
         let editButton =
         document.createElement("button");
         editButton.textContent = "Edit";
+        editButton.classList.add("editButton");
 
         editButton.addEventListener("click",
             function() {
